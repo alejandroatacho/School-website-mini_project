@@ -1,0 +1,34 @@
+
+Entrega website 10 di september
+
+lastu les di csv ta 3 september
+
+Un folder ku tur bo pagina
+
+bo por bin kune den stick of zip e email pe.
+
+<! Doctype html>
+<html>								<h1>.........</h1>
+<head>
+	<title>....................</title>			<p>..........</p>
+</head>								<br> (break)
+</body>
+</body>
+<html>								list
+								ol	li
+								ul
+
+E opdracht ta kontasta di 5 pagina ( home contact button etc)
+
+Home button = sales page
+
+(home, products, feature, contact and about)
+
+(html & CSS, external styleen sheet)
+
+
+-Meneer mes ta duna tema.
+
+<ul>
+<li><a href="home.html">home</a></li>
+</ul>

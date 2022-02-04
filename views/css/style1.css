@@ -1,0 +1,35 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: black;
+}
+
+img{
+  width: 350px
+}
+a {
+  text-align: center;
+}
+.home{
+  text-align: center;
+}
+.Button{
+  background-color: DodgerBlue; /* Blue background */
+    border: Auto; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: center;
+  }
+  .Button:hover{
+    background-color: RoyalBlue;
