@@ -1,37 +1,74 @@
+* {
+  font-family: verdana;
+}
+body {
+  background-image: url("views/media/b.jpg");
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
-
-h1 {
+h1,
+h2 {
   color: black;
   text-align: center;
 }
 
 p {
-  font-family: verdana;
   font-size: 15px;
   text-align: center;
 }
-h2 {
-  text-align: center;
-  color: black;
-}
 
-img{
-  width: 800px
+img {
+  width: 800px;
+}
+/*Home page images*/
+.hero-image,
+.bottom_home_image {
+  width: 500px;
+}
+/*home page div box area controle*/
+.home_group {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/*special div box nesting made for having left & right views*/
+.box_template {
+  display: flex;
+}
+.box_template img {
+  width: 150px;
+  height: auto;
+}
+.box_template_h1 {
+  color: #a04f3c;
+}
+.box_template_text {
+  width: 500px;
+  height: auto;
 }
 a {
   text-align: center;
 }
-.home{
+.home {
   text-align: center;
 }
-.Button{
+.Button {
   background-color: DodgerBlue; /* Blue background */
-    border: Auto; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-    text-align: center;
-  }
-  .Button:hover{
-    background-color: RoyalBlue;
+  border: Auto; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  text-align: center;
+}
+.Button:hover {
+  background-color: RoyalBlue;
+}
+.global_footer {
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: dodgerblue;
+}

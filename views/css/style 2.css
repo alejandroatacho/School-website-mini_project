@@ -1,3 +1,7 @@
+body {
+  background-image: url("views/media/b.jpg");
+}
+
 h1 {
   color: black;
   text-align: center;
@@ -13,24 +17,24 @@ h2 {
   color: black;
 }
 
-img{
-  width: 500px
+img {
+  width: 500px;
 }
 a {
   text-align: center;
 }
-.home{
+.home {
   text-align: center;
 }
-.Button{
+.Button {
   background-color: DodgerBlue; /* Blue background */
-    border: Auto; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-    text-align: center;
-  }
-  .Button:hover{
-    background-color: RoyalBlue;
-  }
+  border: Auto; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  text-align: center;
+}
+.Button:hover {
+  background-color: RoyalBlue;
+}
