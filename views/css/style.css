@@ -55,9 +55,27 @@ a {
 }
 /*END*/
 
+/*google map contact page*/
+.contact_map {
+  /* margin-top: 10px; margin-left: 33%;*/
+  justify-content: center !important;
+  position: relative;
+  text-align: center;
+}
+.content_map iframe {
+  margin: 0px auto;
+  display: inline-block;
+}
+/*END*/
+
 /*special div box nesting made for having left & right views*/
 .box_template {
   display: flex;
+  justify-content: center;
+  line-height: 1;
+}
+.box_template_2nd {
+  margin-left: 20px;
 }
 .box_template img {
   width: 150px;
@@ -69,6 +87,9 @@ a {
 .box_template_text {
   width: 500px;
   height: auto;
+}
+.box_template p {
+  text-align: left;
 }
 /*END*/
 
