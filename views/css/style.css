@@ -67,7 +67,10 @@ a {
   display: inline-block;
 }
 /*END*/
-
+/*Text box template*/
+.text_align_template {
+  justify-content: center;
+}
 /*special div box nesting made for having left & right views*/
 .box_template {
   display: flex;
@@ -90,6 +93,15 @@ a {
 }
 .box_template p {
   text-align: left;
+}
+/*seperate template for certain images*/
+.box_template_image {
+  justify-content: center;
+  text-align: center;
+}
+.box_template_image img {
+  height: 560px;
+  width: auto;
 }
 /*END*/
 
