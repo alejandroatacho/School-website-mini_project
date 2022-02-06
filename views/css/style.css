@@ -68,6 +68,7 @@ a {
 }
 .global_footer {
   height: 200px;
+  margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: dodgerblue;
