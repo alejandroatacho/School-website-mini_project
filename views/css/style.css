@@ -131,7 +131,7 @@ h3 {
 }
 .global_footer p {
   width: 150px;
-  color: #212121;
+  color: #f9f9f9;
   font-weight: bold;
   margin-left: 0px;
 }
@@ -144,14 +144,16 @@ h3 {
 /*Spacing between quick links*/
 .global_footer li {
   margin-top: 10px;
+  color: #333333;
 }
+
 .global_footer a {
-  color: #0060b6;
+  color: #333333;
   text-decoration: none;
 }
 
 .global_footer a:hover {
-  color: #00a0c6;
+  color: #f9f9f9;
   text-decoration: none;
   cursor: pointer;
 }
