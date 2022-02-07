@@ -33,6 +33,11 @@ img {
   left: 250px;
   bottom: 300px;
 }
+
+.aligncenter-1 {
+  background-color: aliceblue;
+}
+
 .bottom_home_image {
   width: 500px;
 }
@@ -57,8 +62,6 @@ img {
   background-color: #f0a46e;
   border: solid #ed8f4c;
   border-radius: 50px;
-}
-    
 }
 
 a {
@@ -88,10 +91,13 @@ a {
   justify-content: center !important;
   position: relative;
   text-align: center;
+  background-color: tomato;
+  padding-bottom: 25px;
 }
 .content_map iframe {
   margin: 0px auto;
   display: inline-block;
+  
 }
 /*END*/
 /*Text box template*/
@@ -105,7 +111,11 @@ a {
   line-height: 1;
 }
 .box_template_2nd {
-  margin-left: 20px;
+  margin-left: 60px;
+}
+
+.nilda-pinto-sbo {
+  margin-right: 0px;
 }
 .box_template img {
   width: 150px;
@@ -200,6 +210,17 @@ h3 {
 } /*END*/
 
 /*TEST*/
-element.style {
+.image-about {
+  height: 350px !important;
+  width: auto;
+  position: relative;
+  left: 250px;
+  bottom: 100px;
+}
 
+.about-text {
+  position: relative;
+  right: 150px;
+  padding-right: 600px;
+  top: 60px;
 }
