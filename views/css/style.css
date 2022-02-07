@@ -14,7 +14,11 @@ h2 {
   color: black;
   text-align: center;
 }
-
+table,
+th,
+td {
+  border: 1px solid black;
+}
 p {
   font-size: 15px;
   text-align: center;
