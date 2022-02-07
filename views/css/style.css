@@ -26,7 +26,13 @@ img {
   height: auto;
 }
 /*Home page images*/
-.hero-image,
+.hero-image {
+  width: 500px;
+  height: auto;
+  position: relative;
+  left: 250px;
+  bottom: 300px;
+}
 .bottom_home_image {
   width: 500px;
 }
@@ -34,6 +40,25 @@ img {
 .home_group {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+/* First home text Position */
+.first-home-text {
+  position: relative;
+  right: 150px;
+  padding-right: 600px;
+  top: 60px;
+}
+
+/* Second home text Position */
+.second-home-text {
+  position: relative;
+  bottom: 200px;
+  background-color: #f0a46e;
+  border: solid #ed8f4c;
+  border-radius: 50px;
+}
+    
 }
 
 a {
@@ -111,8 +136,8 @@ a {
 .global_footer {
   display: flex;
   height: 200px;
-  margin-top: 50px;
-  padding-top: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
   padding-bottom: 10px;
   background-color: dodgerblue;
 }
@@ -173,3 +198,8 @@ h3 {
   margin-bottom: 0px;
   color: #f9f9f9;
 } /*END*/
+
+/*TEST*/
+element.style {
+
+}
