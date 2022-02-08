@@ -57,7 +57,7 @@ img {
 .table_container tr {
   text-align: center;
 }
-.table_container tr > :first-child {
+.table_container tr:first-child {
   background: #e6ce89;
   font-weight: bold;
 }
@@ -110,6 +110,31 @@ a {
 .home {
   text-align: center;
 }
+/*Navbar*/
+.navbar {
+  background: #1e90ff;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-size: 100%;
+  position: relative;
+}
+.navbar ul {
+  margin-top: 0px;
+  padding-top: 40px;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 100px;
+  margin-bottom: 25px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333333;
+}
+/*END*/
+
 /*Buttons*/
 .Button {
   background-color: DodgerBlue; /* Blue background */
