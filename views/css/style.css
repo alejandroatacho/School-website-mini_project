@@ -48,6 +48,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 800px;
+  height: auto;
 }
 .table_container table {
   border-spacing: 0;
@@ -70,6 +72,12 @@ img {
 .table_container tr:nth-child(4),
 .table_container tr:nth-child(2) {
   background: #d8d8d8;
+}
+.table_container li {
+  list-style-type: none;
+}
+.table_text_left {
+  text-align: left;
 }
 /*END*/
 
