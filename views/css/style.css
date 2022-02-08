@@ -41,6 +41,38 @@ img {
 .bottom_home_image {
   width: 500px;
 }
+/*table template for niveau.html*/
+.table_container {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table_container table {
+  border-spacing: 0;
+}
+.table_container tr {
+  text-align: center;
+}
+.table_container tr > :first-child {
+  background: #e6ce89;
+  font-weight: bold;
+}
+
+.table_container th {
+  position: sticky;
+  background: #e6ce89;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.table_container tr:nth-child(4),
+.table_container tr:nth-child(2) {
+  background: #d8d8d8;
+}
+/*END*/
+
 /*home page div box area controle*/
 .home_group {
   margin-left: 15%;
@@ -51,14 +83,14 @@ img {
 .first-home-text {
   position: relative;
   right: 150px;
-  padding-right: 600px;
+  padding-right: 300px;
+  margin-right: 150px;
   top: 60px;
 }
 
 /* Second home text Position */
 .second-home-text {
   position: relative;
-  bottom: 200px;
   background-color: #f0a46e;
   border: solid #ed8f4c;
   border-radius: 50px;
@@ -97,7 +129,6 @@ a {
 .content_map iframe {
   margin: 0px auto;
   display: inline-block;
-  
 }
 /*END*/
 /*Text box template*/
